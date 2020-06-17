@@ -1,0 +1,180 @@
+/*
+font-family: 'Poppins', sans-serif; Medium 500
+font-family: 'Roboto', sans-serif; Light 300 Medium 500 Bold 700
+
+color: b6eb7a  #f7f7ee #fb7813 #17706e
+https://colorhunt.co/palette/189615
+*/
+
+body {
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #252525;
+    margin: 0 auto;
+    line-height: 1.5;
+}
+
+p{
+    margin: 0;
+    padding: 15px 0px;
+}
+
+/*div {
+    border: 1.5px solid black;
+    margin: 0 auto;
+}*/
+
+h1 {    
+    font-size: 60px;
+    margin: 0px;
+}
+h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding: 10px 10px 2.5px 0px;
+}
+
+h3 {
+    font-size: 20px;
+    margin: 0;
+    border: 0;
+    padding: 10px 10px 10px 0px;
+}
+
+h4 {
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+h5 {
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+#home-card {
+    background-color: #b6eb7a;
+    font-family: 'Poppins';
+    text-align: center;
+    margin: 0;
+    border: 0;
+    padding: 10px;
+}
+
+#home-card > h3 {
+    font-size: 35px;
+    margin: 0px 0px 10px 0px;
+}
+
+#profile-card {
+    background-color: #f7f7ee;
+    margin: 0;
+    border: 0;
+    padding: 10px 10px 2.5px 0px;
+}
+
+#profile-card > img {
+    margin: 0 auto;
+}
+
+.details-container {
+    font-size: 18px;
+}
+
+.details-container > h3 {
+    padding: 0px;
+    font-size: 18px;
+}
+.details-container > ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#experience-card {
+    background-color: #fcb27a;
+    margin: 0;
+    border: 0;
+    padding: 10px;
+}
+
+#contact-card {
+    background-color: #17706e;
+    margin: 0;
+    border: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#contact-card > h2 {
+    margin: 15px 0px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    border: 2.5px solid #17706e;
+}
+
+a {
+    color: #252525;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #494949;
+    text-decoration: none;
+}
+    
+.logo-size {
+    width: 100px; 
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+    font-size: 50px;
+    margin: 0px 0px 25px 0px;
+  }
+
+.list-inline > li {
+    display: inline; 
+    padding: 0px 20px;
+  }
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+    border: 0px;
+}
+  @media (max-width: 720px) {
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.card > .details-container {
+    flex-grow: 1;
+    padding-left: 15px;
+  }
+
+.card > a {
+    padding-right: 15px;
+}
