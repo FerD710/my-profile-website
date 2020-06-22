@@ -6,7 +6,8 @@ color: b6eb7a  #f7f7ee #fb7813 #17706e
 https://colorhunt.co/palette/189615
 */
 
-body {
+body, html {
+    height: 100%;
     font-family: 'Roboto';
     font-size: 16px;
     color: #252525;
@@ -25,9 +26,16 @@ p{
 }*/
 
 h1 {    
-    font-size: 60px;
-    margin: 0px;
+    font-size: 48px;
+    background-color: #111;
+    color: #fff;
+    padding: 20px 15px;
+    letter-spacing: 10px;
+    margin: 0px auto;
+    width: fit-content;
+    border: 0px;
 }
+
 h2 {
     font-size: 30px;
     text-align: center;
@@ -40,7 +48,7 @@ h3 {
     font-size: 20px;
     margin: 0;
     border: 0;
-    padding: 10px 10px 10px 0px;
+    padding: 0px 10px 10px 0px;
 }
 
 h4 {
@@ -60,17 +68,41 @@ h5 {
 }
 
 #home-card {
-    background-color: #b6eb7a;
     font-family: 'Poppins';
     text-align: center;
-    margin: 0;
-    border: 0;
-    padding: 10px;
 }
+.bgimg {
+    background-image: url("./images/Japan-Background.JPG");
+    height: 100%;
+    position: relative;
+    opacity: 0.65;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 #home-card > h3 {
-    font-size: 35px;
-    margin: 0px 0px 10px 0px;
+    font-size: 20px;
+    color: white;
+    margin: 0 auto;
+    letter-spacing: 4px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+.caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+    letter-spacing: 6px;
 }
 
 #profile-card {
@@ -98,14 +130,22 @@ h5 {
 }
 
 #experience-card {
-    background-color: #fcb27a;
+    background-color: #f7f7ee;
     margin: 0;
     border: 0;
     padding: 10px;
 }
 
+#abilities-card {
+    background-color: #f7f7ee;
+    margin: 0;
+    border: 0;
+    padding: 10px 10px 2.5px 0px;
+}
+
 #contact-card {
-    background-color: #17706e;
+    background-color: #252525;
+    color: #f7f7ee;
     margin: 0;
     border: 0;
     padding: 10px;
@@ -113,7 +153,8 @@ h5 {
 }
 
 #contact-card > h2 {
-    margin: 15px 0px;
+    margin: 15px 20px;
+    padding: 25px;
 }
 
 .profile-pic {
@@ -122,7 +163,7 @@ h5 {
 }
 
 a {
-    color: #252525;
+    color: #f7f7ee;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -139,7 +180,6 @@ a:hover {
 .list-inline {
     list-style: none;
     padding-left: 0px;
-    font-size: 50px;
     margin: 0px 0px 25px 0px;
   }
 
@@ -148,17 +188,21 @@ a:hover {
     padding: 0px 20px;
   }
 
+i {
+    font-size: 50px;
+}
+
 .container {
     width: 700px;
     margin: 0 auto;
     border: 0px;
 }
-  @media (max-width: 720px) {
+@media (max-width: 720px) {
     .container {
       width: 500px;
     }
-  }
-  @media (max-width: 540px) {
+}
+@media (max-width: 540px) {
     .container {
       width: 300px;
     }
@@ -166,7 +210,7 @@ a:hover {
 
 .card {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
   }
 
@@ -178,3 +222,36 @@ a:hover {
 .card > a {
     padding-right: 15px;
 }
+
+.fa-circle {
+    font-size: 16px;
+}
+
+.circle-full {
+    color: #252525;
+}
+
+.circle-empty {
+    color: #969696;
+}
+
+table {
+    table-layout: fixed ;
+    width: 100% ;
+  }
+td {
+    width: 25% ;
+  }
+
+.table-line {
+    margin: 40px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity=20);
+}
+
+
+  
+  
+
+  
+  
+  
+  
