@@ -72,7 +72,7 @@ h5 {
     text-align: center;
 }
 .bgimg {
-    background-image: url("./images/Japan-Background.JPG");
+    background-image: url("./images/Japan-Background.png");
     height: 100%;
     position: relative;
     opacity: 0.65;
@@ -238,6 +238,7 @@ i {
 table {
     table-layout: fixed ;
     width: 100% ;
+    padding: 10px;
   }
 td {
     width: 25% ;
